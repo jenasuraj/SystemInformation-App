@@ -37,13 +37,13 @@ To set up and run the Hardware Details Viewer, follow these steps:
       
        Response:
 
-       {
+       
   "cpu": {
     "model": "Intel Core i7-9700K",
     "clockSpeed": "3.6 GHz",
     "cores": 8
         }
-       }
+       
 
 
 ## (2) /api/memory
