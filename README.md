@@ -13,7 +13,7 @@
 <h2>Technologies Used</h2>
 <ul>
   <li><strong>Node.js</strong> – Backend runtime environment</li>
-  <li><strong>JavaScript</strong> – Application logic</li>
+  <li><strong>React js</strong> – Application logic</li>
 </ul>
 
 <h2>Prerequisites</h2>
