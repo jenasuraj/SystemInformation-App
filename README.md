@@ -68,8 +68,6 @@ console.log('Uptime:', os.uptime(), 'seconds');</code></pre>
 <h2>Contributing</h2>
 <p>Contributions are welcome! Feel free to open an issue or submit a pull request for improvements.</p>
 
-<h2>License</h2>
-<p>This project is licensed under the MIT License. See the <code>LICENSE</code> file for more details.</p>
 
 <h2>Contact</h2>
 <p>Created by <a href="https://github.com/jenasuraj">Suraj jena</a></p>
