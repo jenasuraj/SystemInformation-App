@@ -1,6 +1,6 @@
 <h1>System Information App</h1>
 
-<p>A lightweight and simple Node.js application that displays essential system information such as CPU usage, memory stats, OS details, and more. This app provides real-time data, helping users monitor their system's performance.</p>
+<p>A lightweight and simple application built with react and node js that displays essential system information such as CPU usage, memory stats, OS details, and more. This app provides real-time data, helping users monitor their system's performance.</p>
 
 <h2>Features</h2>
 <ul>
@@ -72,7 +72,7 @@ console.log('Uptime:', os.uptime(), 'seconds');</code></pre>
 <p>This project is licensed under the MIT License. See the <code>LICENSE</code> file for more details.</p>
 
 <h2>Contact</h2>
-<p>Created by <a href="https://github.com/your-username">Your Name</a></p>
+<p>Created by <a href="https://github.com/jenasuraj">Suraj jena</a></p>
 
 </body>
 </html>
