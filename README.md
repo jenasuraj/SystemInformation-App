@@ -1,70 +1,78 @@
-# Getting Started with Create React App
+<h1>System Information App</h1>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<p>A lightweight and simple Node.js application that displays essential system information such as CPU usage, memory stats, OS details, and more. This app provides real-time data, helping users monitor their system's performance.</p>
 
-## Available Scripts
+<h2>Features</h2>
+<ul>
+  <li>Displays system details like CPU, memory, OS type, and uptime.</li>
+  <li>Lightweight and fast with minimal dependencies.</li>
+  <li>Real-time data updates on system usage.</li>
+  <li>Easy to run locally with Node.js.</li>
+</ul>
 
-In the project directory, you can run:
+<h2>Technologies Used</h2>
+<ul>
+  <li><strong>Node.js</strong> – Backend runtime environment</li>
+  <li><strong>JavaScript</strong> – Application logic</li>
+</ul>
 
-### `npm start`
+<h2>Prerequisites</h2>
+<p>Make sure you have the following installed on your machine:</p>
+<ul>
+  <li><a href="https://nodejs.org">Node.js</a> (v12+)</li>
+</ul>
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+<h2>Installation</h2>
+<ol>
+  <li>Clone the repository:
+    <pre><code>git clone https://github.com/your-username/system-info-app.git
+cd system-info-app</code></pre>
+  </li>
+  <li>Install dependencies:
+    <pre><code>npm install</code></pre>
+  </li>
+</ol>
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+<h2>Usage</h2>
+<ol>
+  <li>Run the application:
+    <pre><code>node index.js</code></pre>
+  </li>
+  <li>Open your terminal to see the system information printed in real-time.</li>
+</ol>
 
-### `npm test`
+<h2>Example Output</h2>
+<pre><code>OS Type: Linux
+CPU Architecture: x64
+Total Memory: 8.4 GB
+Free Memory: 2.3 GB
+Uptime: 3600 seconds</code></pre>
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+<h2>Project Structure</h2>
+<pre><code>system-info-app/
+│
+├── index.js           # Main entry point of the app
+├── package.json       # Node.js dependencies and scripts
+└── README.md          # Documentation</code></pre>
 
-### `npm run build`
+<h2>Code Overview</h2>
+<p>Here’s a simple example of the <code>index.js</code>:</p>
+<pre><code>const os = require('os');
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+console.log('OS Type:', os.type());
+console.log('CPU Architecture:', os.arch());
+console.log('Total Memory:', (os.totalmem() / (1024 ** 3)).toFixed(2) + ' GB');
+console.log('Free Memory:', (os.freemem() / (1024 ** 3)).toFixed(2) + ' GB');
+console.log('Uptime:', os.uptime(), 'seconds');</code></pre>
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+<h2>Contributing</h2>
+<p>Contributions are welcome! Feel free to open an issue or submit a pull request for improvements.</p>
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+<h2>License</h2>
+<p>This project is licensed under the MIT License. See the <code>LICENSE</code> file for more details.</p>
 
-### `npm run eject`
+<h2>Contact</h2>
+<p>Created by <a href="https://github.com/your-username">Your Name</a></p>
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+</body>
+</html>
