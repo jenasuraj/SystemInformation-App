@@ -25,8 +25,8 @@
 <h2>Installation</h2>
 <ol>
   <li>Clone the repository:
-    <pre><code>git clone https://github.com/your-username/system-info-app.git
-cd system-info-app</code></pre>
+    <pre><code>git clone git@github.com:jenasuraj/SystemInformation-App.git
+</code></pre>
   </li>
   <li>Install dependencies:
     <pre><code>npm install</code></pre>
